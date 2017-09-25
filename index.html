@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -48,13 +49,15 @@
             <div class="logo">
               <img src="img/logo.svg" alt="logo gdlwebcamp">
             </div>
+
             <div class="menu-movil">
               <span></span>
               <span></span>
               <span></span>
             </div>
+
             <nav class="navegacion-principal">
-              <a href="#">Conferncia</a>
+              <a href="conferencia.html">Conferncia</a>
               <a href="#">Calendario</a>
               <a href="#">Invitados</a>
               <a href="registro.html">Reservaciones</a>
@@ -66,7 +69,7 @@
           <h2>La mejor Conferencia de diseño web en español</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </section>
+          </section>       
 
         <section class="programa">
           <div class="contenedor-video">
@@ -180,10 +183,10 @@
         <div class="contador parallax">
           <div class="contenedor">
             <ul class="resumen-evento clearfix">
-              <li><p class="numero">6</p> Invitados</li>
-              <li><p class="numero">15</p> Talleres</li>
-              <li><p class="numero">3</p> Dias</li>
-              <li><p class="numero">9</p> Conferencias</li>
+              <li><p class="numero"></p> Invitados</li>
+              <li><p class="numero"></p> Talleres</li>
+              <li><p class="numero"></p> Dias</li>
+              <li><p class="numero"></p> Conferencias</li>
             </ul>
           </div>
         </div>
@@ -288,10 +291,10 @@
           <h2>Falta</h2>
           <div class="cuenta-regresiva contenedor">
             <ul class="clearfix">
-              <li><p class="numero">80</p>Dias</li>
-              <li><p class="numero">15</p>Horas</li>
-              <li><p class="numero">5</p>Minutos</li>
-              <li><p class="numero">30</p>Segundos</li>
+              <li><p class="numero" id="dias"></p>Dias</li>
+              <li><p class="numero" id="horas"></p>Horas</li>
+              <li><p class="numero" id="minutos"></p>Minutos</li>
+              <li><p class="numero" id="segundos"></p>Segundos</li>
             </ul>
           </div>
         </section>
@@ -336,6 +339,11 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.lettering.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="jquery.waypoints.min.js"></script>
         <script src="js/main.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB78m9I-ZKaT9AGSmLmTFM2Pj8LgEJ7RFs&callback=initMap"
         async defer></script>
